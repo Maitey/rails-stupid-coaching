@@ -1,0 +1,16 @@
+<div class="container mt-5">
+  <div class="card p-4 shadow-sm">
+    <h1 class="mb-4 text-center">Ask your coach anything</h1>
+
+    <form action="/answer" method="get" data-turbo="false">
+      <div class="mb-3">
+        <label for="question" class="form-label">Your question</label>
+        <input type="text" id="question" name="question" class="form-control">
+      </div>
+
+      <div class="text-center">
+        <input type="submit" value="Ask!" class="btn btn-primary">
+      </div>
+    </form>
+  </div>
+</div>
